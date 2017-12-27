@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "KYTextView.h"
 
 @interface ViewController ()
+/**KYTextView*/
+@property (weak, nonatomic) IBOutlet KYTextView *textView;
 
 @end
 
@@ -16,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.textView.placeholder = @"请输入需要的文字";
 }
 
 

@@ -13,6 +13,7 @@
 		AC771F481FF33CA7006FE821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC771F461FF33CA7006FE821 /* Main.storyboard */; };
 		AC771F4A1FF33CA7006FE821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC771F491FF33CA7006FE821 /* Assets.xcassets */; };
 		AC771F4D1FF33CA7006FE821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC771F4B1FF33CA7006FE821 /* LaunchScreen.storyboard */; };
+		AC771F581FF33DC4006FE821 /* KYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC771F571FF33DC4006FE821 /* KYTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AC771F491FF33CA7006FE821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC771F4C1FF33CA7006FE821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC771F4E1FF33CA7006FE821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC771F561FF33DC4006FE821 /* KYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYTextView.h; sourceTree = "<group>"; };
+		AC771F571FF33DC4006FE821 /* KYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		AC771F3C1FF33CA7006FE821 /* KYTextView */ = {
 			isa = PBXGroup;
 			children = (
+				AC771F551FF33D78006FE821 /* KYTextView */,
 				AC771F401FF33CA7006FE821 /* AppDelegate.h */,
 				AC771F411FF33CA7006FE821 /* AppDelegate.m */,
 				AC771F431FF33CA7006FE821 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				AC771F3E1FF33CA7006FE821 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC771F551FF33D78006FE821 /* KYTextView */ = {
+			isa = PBXGroup;
+			children = (
+				AC771F561FF33DC4006FE821 /* KYTextView.h */,
+				AC771F571FF33DC4006FE821 /* KYTextView.m */,
+			);
+			path = KYTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				AC771F451FF33CA7006FE821 /* ViewController.m in Sources */,
 				AC771F421FF33CA7006FE821 /* AppDelegate.m in Sources */,
 				AC771F3F1FF33CA7006FE821 /* main.m in Sources */,
+				AC771F581FF33DC4006FE821 /* KYTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

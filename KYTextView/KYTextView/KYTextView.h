@@ -10,4 +10,11 @@
 
 @interface KYTextView : UITextView
 
+/**占位文字*/
+@property (nonatomic, strong) NSString *placeholder;
+/**占位文字颜色*/
+@property (nonatomic, strong) UIColor *placeholderColor;
+
+-(void)textChanged:(NSNotification*)notification;
+
 @end
